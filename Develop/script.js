@@ -16,7 +16,7 @@ function writePassword() {
 }
 function generatePassword(){
 let characters = parseInt(
-  prompt("How many characters in your password?");
+  prompt("How many characters in your password?")
 console.log(characters))
 
 if(characters < 8){
